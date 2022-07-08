@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="036b249d-cf93-4f5e-88af-62f573999443" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Price To Pay/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Price To Pay/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Price To Pay/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Price To Pay/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/2D Game Enviroment.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/2D Game Enviroment.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Price To Pay/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Price To Pay/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657310118946</updated>
-      <workItem from="1657310130615" duration="767000" />
+      <workItem from="1657310130615" duration="4624000" />
     </task>
     <servers />
   </component>

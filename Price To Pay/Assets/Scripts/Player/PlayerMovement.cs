@@ -1,28 +1,28 @@
-using System;
 using UnityEngine;
 
 namespace Player
 {
     public class PlayerMovement : MonoBehaviour
     {
-        public float moveSpeed = 5f;
-        private Rigidbody2D _rigidBody;
-        private void Awake()
-        {
-            _rigidBody = this.gameObject.GetComponent<Rigidbody2D>();
-        }
-
-        private Vector2 _movement;
-
-        private void Update()
-        {
-            _movement.x = Input.GetAxis("Horizontal");
-            _movement.y = Input.GetAxis("Vertical");
-        }
+        private Vector3 _moveDelta;
 
         private void FixedUpdate()
         {
-            _rigidBody.MovePosition(_rigidBody.position + _movement * (moveSpeed * Time.deltaTime));
+            var x = Input.GetAxis("Horizontal");
+            var y = Input.GetAxis("Vertical");
+
+            _moveDelta = new Vector3(x, y, 0);
+
+            if (_moveDelta.x > 0)
+            {
+                transform.localScale = Vector3.one;
+            } 
+            else if (_moveDelta.x < 0)
+            {
+                transform.localScale = new Vector3(-1, 1, 1);
+            }
+            
+            transform.Translate(_moveDelta * Time.deltaTime);
         }
     }
 }
