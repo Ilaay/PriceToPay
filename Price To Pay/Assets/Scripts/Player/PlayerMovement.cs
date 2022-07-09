@@ -1,10 +1,20 @@
+using System;
 using UnityEngine;
 
 namespace Player
 {
     public class PlayerMovement : MonoBehaviour
     {
+        [SerializeField] private float moveSpeed;
+        
+        private SpriteRenderer _spriteRenderer;
         private Vector3 _moveDelta;
+        private Transform _transform;
+
+        private void Awake()
+        {
+            _spriteRenderer = this.gameObject.GetComponent<SpriteRenderer>();
+        }
 
         private void FixedUpdate()
         {
@@ -13,16 +23,14 @@ namespace Player
 
             _moveDelta = new Vector3(x, y, 0);
 
-            if (_moveDelta.x > 0)
+            _spriteRenderer.flipX = _moveDelta.x switch
             {
-                transform.localScale = Vector3.one;
-            } 
-            else if (_moveDelta.x < 0)
-            {
-                transform.localScale = new Vector3(-1, 1, 1);
-            }
-            
-            transform.Translate(_moveDelta * Time.deltaTime);
+                > 0 => true,
+                < 0 => false,
+                _ => _spriteRenderer.flipX
+            };
+
+            transform.Translate(_moveDelta * (moveSpeed * Time.deltaTime));
         }
     }
 }
