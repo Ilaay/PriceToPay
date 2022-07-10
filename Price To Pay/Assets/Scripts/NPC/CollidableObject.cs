@@ -22,14 +22,8 @@ namespace NPC
             {
                 if (_hits[i].IsUnityNull()) continue;
 
-                //OnCollide(_hits[i]);
                 _hits[i] = null;
             }
         }
-
-        // protected virtual void OnCollide(Collider2D hit)
-        // {
-        //     print(_collider.name);
-        // }
     }
 }

@@ -10,7 +10,7 @@ namespace Application
         private static bool _isMainCameraNotNull;
 
         private static GameObject _dog;
-        private static bool zoom;
+        private static bool _zoom;
 
         private void Awake()
         {
@@ -27,7 +27,7 @@ namespace Application
             //_mainCamera.orthographicSize = 3;
             //_mainCamera.transform.LookAt(objectToFocusOn.transform);
 
-            zoom = true;
+            _zoom = true;
         }
         
         public static void UnfocusCamera()
@@ -39,12 +39,12 @@ namespace Application
             //mainCameraTransform.SetPositionAndRotation(_mainCameraStandartTransform.position, Quaternion.Euler(0f, 0f, 0f));
             //_mainCamera.orthographicSize = 5;
 
-            zoom = false;
+            _zoom = false;
         }
 
         public void LateUpdate()
         {
-            if (zoom)
+            if (_zoom)
             {
                 _mainCamera.orthographicSize = Mathf.Lerp(_mainCamera.orthographicSize, 3, 0.01f);
                 _mainCamera.transform.position = Vector3.Lerp(_mainCamera.transform.position, new Vector3(_dog.transform.position.x, _dog.transform.position.y, -10), 0.02f);
