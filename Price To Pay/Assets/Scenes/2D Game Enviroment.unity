@@ -384,8 +384,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.03}
-  m_Size: {x: 0.2, y: 0.17}
-  m_Direction: 0
+  m_Size: {x: 0.32, y: 0.23}
+  m_Direction: 1
 --- !u!114 &334270528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -398,20 +398,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f21c87a1e8296d448290959fc03aef4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  filter:
-    useTriggers: 0
-    useLayerMask: 0
-    useDepth: 0
-    useOutsideDepth: 0
-    useNormalAngle: 0
-    useOutsideNormalAngle: 0
-    layerMask:
-      serializedVersion: 2
-      m_Bits: 0
-    minDepth: 0
-    maxDepth: 0
-    minNormalAngle: 0
-    maxNormalAngle: 0
 --- !u!1 &555575683
 GameObject:
   m_ObjectHideFlags: 0
@@ -835,6 +821,7 @@ GameObject:
   - component: {fileID: 1858525820}
   - component: {fileID: 1858525819}
   - component: {fileID: 1858525818}
+  - component: {fileID: 1858525821}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -878,7 +865,7 @@ Camera:
   field of view: 165.6
   orthographic: 1
   orthographic size: 5
-  m_Depth: -1
+  m_Depth: -7.95
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -908,3 +895,15 @@ Transform:
   m_Father: {fileID: 555575684}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1858525821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1858525817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 708fb435fe65f9c469b2f2faf903397f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
