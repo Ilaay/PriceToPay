@@ -28,7 +28,7 @@ namespace NPC
         {
             DogNoticesPlayer();
             
-            CameraManager.FocusCameraOnObject(gameObject);
+            CameraManager.FocusCameraOnObject(this.gameObject);
         }
 
         private void DogNoticesPlayer()
