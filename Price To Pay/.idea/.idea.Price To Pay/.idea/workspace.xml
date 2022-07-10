@@ -4,7 +4,9 @@
     <list default="true" id="036b249d-cf93-4f5e-88af-62f573999443" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Price To Pay/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Price To Pay/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Application/CameraManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Application/CameraManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPC/CollidableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NPC/CollidableObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPC/CollidableObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPC/CollidableObject.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPC/DogBehaviourScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NPC/DogBehaviourScript.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +82,7 @@
       <workItem from="1657433799860" duration="1301000" />
       <workItem from="1657442338676" duration="595000" />
       <workItem from="1657442988545" duration="3425000" />
-      <workItem from="1657450751606" duration="5427000" />
+      <workItem from="1657450751606" duration="5742000" />
     </task>
     <servers />
   </component>
