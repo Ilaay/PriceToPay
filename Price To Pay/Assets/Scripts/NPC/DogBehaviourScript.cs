@@ -33,7 +33,7 @@ namespace NPC
 
         private void DogNoticesPlayer()
         {
-            _firstContactMade = true;
+            //_firstContactMade = true;
             _spriteRenderer.flipX = !_spriteRenderer.flipX;
         }
     }

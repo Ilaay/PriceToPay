@@ -20,7 +20,7 @@ namespace Application
         {
             if (_isMainCameraNotNull) return;
             
-            _mainCamera.orthographicSize = 2;
+            _mainCamera.orthographicSize = 3;
             _mainCamera.transform.LookAt(objectToFocusOn.transform);
         }
         

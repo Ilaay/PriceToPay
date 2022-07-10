@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="036b249d-cf93-4f5e-88af-62f573999443" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Price To Pay/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Price To Pay/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/2D Game Enviroment.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/2D Game Enviroment.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPC/CollidableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NPC/CollidableObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPC/DogBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NPC/DogBehaviourScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPC/DogBehaviour.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NPC/DogBehaviourScript.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Application/CameraManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Application/CameraManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPC/DogBehaviourScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NPC/DogBehaviourScript.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,10 +45,10 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="19020">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="19020" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -80,6 +77,7 @@
       <workItem from="1657310130615" duration="4624000" />
       <workItem from="1657375979454" duration="2606000" />
       <workItem from="1657424676756" duration="6901000" />
+      <workItem from="1657433799860" duration="1301000" />
     </task>
     <servers />
   </component>
@@ -102,24 +100,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Application/CameraManager.cs</url>
-          <line>27</line>
-          <properties documentPath="D:\Github\PriceToPay\Price To Pay\Assets\Scripts\Application\CameraManager.cs" initialLine="28" containingFunctionPresentation="method 'UnfocusCamera'">
-            <startOffsets>
-              <option value="838" />
-            </startOffsets>
-            <endOffsets>
-              <option value="839" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
