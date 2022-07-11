@@ -3,7 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="036b249d-cf93-4f5e-88af-62f573999443" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Price To Pay/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Price To Pay/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MedColorIntensity_MinLightness.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MedColorIntensity_MinLightness.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MinColorIntensity_MinLightness.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MinColorIntensity_MinLightness.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Materials/Interior_Wood_1_basecolor_MaxColorIntensity_MinLightness.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Materials/Interior_Wood_1_basecolor_MaxColorIntensity_MinLightness.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Materials/Interior_Wood_1_basecolor_MedColorIntensity_MinLightness.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Materials/Interior_Wood_1_basecolor_MedColorIntensity_MinLightness.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Materials/Interior_Wood_1_basecolor_MinColorIntensity_MedLightness.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Materials/Interior_Wood_1_basecolor_MinColorIntensity_MedLightness.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mezanix/RealisticWoodTextures/0_Demo_Scene/Demo_Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mezanix/RealisticWoodTextures/0_Demo_Scene/Demo_Scene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/3D Game Environment.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/3D Game Environment.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameFlow/DeathGameScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameFlow/DeathGameScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameFlow/GameProgressTracker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameFlow/GameProgressTracker.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +21,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/805c72fd999f42f1a9f6a648bd2c45863a00/61/5041db43/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Application/CameraManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Application/CardScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameFlow/GameProgressTracker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/UIBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -56,10 +65,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="21824">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="2792">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="21824" />
+      <option name="pid" value="2792" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -82,7 +91,7 @@
       <workItem from="1657442338676" duration="595000" />
       <workItem from="1657442988545" duration="3425000" />
       <workItem from="1657450751606" duration="5742000" />
-      <workItem from="1657483184931" duration="2563000" />
+      <workItem from="1657483184931" duration="9270000" />
     </task>
     <servers />
   </component>
@@ -105,24 +114,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/GameFlow/DeathGameScript.cs</url>
-          <line>11</line>
-          <properties documentPath="D:\Github\PriceToPay\Price To Pay\Assets\Scripts\GameFlow\DeathGameScript.cs" initialLine="11" containingFunctionPresentation="method 'Start'">
-            <startOffsets>
-              <option value="368" />
-            </startOffsets>
-            <endOffsets>
-              <option value="369" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Exterior_Flooring_Wood_1_basecolor_MinColorIntensity_MinLightness
+  m_Name: Exterior_Flooring_Wood_1_basecolor_MinColorIntensity_MaxLightness
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ValidKeywords:
   - _EMISSION
@@ -42,7 +42,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 7f63628d0a5740f4d96de1f461bd3a06, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9f3d30c9b732c754f92132642290e191, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:

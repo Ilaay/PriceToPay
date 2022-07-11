@@ -53,7 +53,7 @@ namespace GameFlow
             GameProgressTracker.SecondGameFinished = true;
         }
 
-        private void ShowCard(GameObject card)
+        private static void ShowCard(GameObject card)
         {
             var cardPosition = card.transform.position;
             card.transform.position = new Vector3(cardPosition.x, cardPosition.y + 1, cardPosition.z);
